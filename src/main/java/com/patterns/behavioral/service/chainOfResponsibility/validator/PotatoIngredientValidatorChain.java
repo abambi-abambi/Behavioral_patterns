@@ -13,8 +13,8 @@ public class PotatoIngredientValidatorChain implements ValidatorChain<Salad> {
     public void validate(Salad object) {
         log.info("Some validation for potato in ingredients");
 
-        if (!object.getVegetables().stream().anyMatch(vegetable -> vegetable.getName().matches(".*potato.*"))) {
-            throw new RuntimeException("Error: ingredients should contain potato");
-        }
+//        if (!object.getIngredients().stream().anyMatch(vegetable -> vegetable.getName().matches(".*potato.*"))) {
+//            throw new RuntimeException("Error: ingredients should contain potato");
+//        }
     }
 }

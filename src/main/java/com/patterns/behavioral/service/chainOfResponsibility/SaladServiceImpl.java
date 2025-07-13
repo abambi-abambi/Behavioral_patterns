@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.List;
 
 @Slf4j
@@ -34,11 +35,11 @@ public class SaladServiceImpl implements SaladService {
         log.info("Salad validation is successfull");
     }
 
-    private Salad createByParams(String name, String receipt, List<Vegetable> vegetables) {
+    private Salad createByParams(String name, String receipt, List<Vegetable> ingredients) {
         return Salad.builder()
                 .name(name)
                 .receipt(receipt)
-                .vegetables(vegetables)
+                .ingredients(Collections.singletonList(ingredients))
                 .build();
     }
 }

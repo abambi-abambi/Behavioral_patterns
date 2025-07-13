@@ -17,12 +17,12 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Salad {
+public class Salad<T> {
 
     private String name;
 
     @NotBlank
-    private List<Vegetable> vegetables;
+    private List<T> ingredients;
 
     private String receipt;
 
