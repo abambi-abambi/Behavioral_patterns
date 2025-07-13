@@ -1,6 +1,6 @@
 package com.patterns.behavioral.service.mediator;
 
-import com.patterns.behavioral.domain.Vegetable;
+import com.patterns.behavioral.domain.chainOfResponsibility.Vegetable;
 import org.springframework.stereotype.Service;
 
 @Service

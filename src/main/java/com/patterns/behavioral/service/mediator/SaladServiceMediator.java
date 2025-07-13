@@ -1,6 +1,6 @@
 package com.patterns.behavioral.service.mediator;
 
-import com.patterns.behavioral.domain.Salad;
+import com.patterns.behavioral.domain.chainOfResponsibility.Salad;
 
 public interface SaladServiceMediator {
 

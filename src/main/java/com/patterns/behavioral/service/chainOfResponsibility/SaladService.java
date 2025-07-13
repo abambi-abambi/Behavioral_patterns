@@ -1,7 +1,7 @@
 package com.patterns.behavioral.service.chainOfResponsibility;
 
-import com.patterns.behavioral.domain.Salad;
-import com.patterns.behavioral.domain.Vegetable;
+import com.patterns.behavioral.domain.chainOfResponsibility.Salad;
+import com.patterns.behavioral.domain.chainOfResponsibility.Vegetable;
 
 import java.util.List;
 

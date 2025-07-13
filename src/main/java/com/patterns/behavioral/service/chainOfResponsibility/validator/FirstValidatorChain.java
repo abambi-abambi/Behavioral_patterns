@@ -1,6 +1,6 @@
 package com.patterns.behavioral.service.chainOfResponsibility.validator;
 
-import com.patterns.behavioral.domain.Salad;
+import com.patterns.behavioral.domain.chainOfResponsibility.Salad;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;

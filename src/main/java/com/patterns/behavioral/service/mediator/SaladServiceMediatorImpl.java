@@ -1,7 +1,7 @@
 package com.patterns.behavioral.service.mediator;
 
-import com.patterns.behavioral.domain.Salad;
-import com.patterns.behavioral.domain.Vegetable;
+import com.patterns.behavioral.domain.chainOfResponsibility.Salad;
+import com.patterns.behavioral.domain.chainOfResponsibility.Vegetable;
 import com.patterns.behavioral.domain.mediator.Fruit;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

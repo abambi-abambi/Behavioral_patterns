@@ -1,4 +1,4 @@
-package com.patterns.behavioral.domain;
+package com.patterns.behavioral.domain.chainOfResponsibility;
 
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;

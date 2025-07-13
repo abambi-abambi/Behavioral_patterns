@@ -1,6 +1,6 @@
 package com.patterns.behavioral.runner;
 
-import com.patterns.behavioral.domain.Vegetable;
+import com.patterns.behavioral.domain.chainOfResponsibility.Vegetable;
 import com.patterns.behavioral.service.chainOfResponsibility.SaladService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
