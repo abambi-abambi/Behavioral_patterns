@@ -30,10 +30,10 @@ public class ObserverRunner implements CommandLineRunner {
         var fruit = Fruit.builder()
                         .name("banana").build();
 
-        log.info("--------- Custom observer example ---------");
+        log.info("--------- Custom observer example:");
         customFruitService.add(fruit);
 
-        log.info("--------- JDK observer example ---------");
+        log.info("--------- JDK observer example:");
         jdkFruitService.add(fruit);
     }
 }
