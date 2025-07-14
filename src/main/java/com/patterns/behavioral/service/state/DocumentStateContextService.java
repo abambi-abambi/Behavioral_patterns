@@ -2,7 +2,7 @@ package com.patterns.behavioral.service.state;
 
 import com.patterns.behavioral.domain.state.Document;
 import com.patterns.behavioral.enums.DocumentStateType;
-import com.patterns.behavioral.service.strategy.DocumentStateStrategy;
+import com.patterns.behavioral.service.strategy4state.DocumentStateStrategy;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

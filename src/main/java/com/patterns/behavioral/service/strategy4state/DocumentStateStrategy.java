@@ -1,4 +1,4 @@
-package com.patterns.behavioral.service.strategy;
+package com.patterns.behavioral.service.strategy4state;
 
 import com.patterns.behavioral.domain.state.Document;
 import com.patterns.behavioral.enums.DocumentStateType;
